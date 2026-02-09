@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎬 IMDB Sentiment Dashboard</h1>
+
+    <div class="card">
+
+        <h2>Enter Full Movie Review</h2>
+
+        <form method="POST">
+            <textarea name="review" placeholder="Paste your entire movie review here..." required>{{ user_review }}</textarea>
+            <button type="submit">Predict Sentiment</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <h3>Prediction:</h3>
+            <p class="output">{{ prediction }}</p>
+        </div>
+        {% endif %}
+
+    </div>
+
+</div>
+
+</body>
+</html>
