@@ -1,10 +1,10 @@
 # Sentiment-Spam-Classification-Web-Application-using-NLP-and-LSTM
-#📩 SENTIMENT / SPAM CLASSIFICATION PROJECT
-##1️⃣ Project Title
+# 📩 SENTIMENT / SPAM CLASSIFICATION PROJECT
+## 1️⃣ Project Title
 
 Sentiment & Spam Classification Web Application using NLP and LSTM
 
-##2️⃣ Abstract / Overview
+## 2️⃣ Abstract / Overview
 
 This project is a Flask-based web application that classifies a given text message as Spam or Not Spam (Ham) using Natural Language Processing (NLP) and a Deep Learning (LSTM) model.
 
@@ -18,7 +18,7 @@ Prediction using a pre-trained LSTM model
 
 Displaying results through a user-friendly web interface
 
-##3️⃣ Objectives
+## 3️⃣ Objectives
 
 The main objectives of this project are:
 
@@ -30,7 +30,7 @@ To integrate the trained model with a Flask web application
 
 To allow users to input messages and get real-time predictions
 
-##4️⃣ Features of the Project
+## 4️⃣ Features of the Project
 
 ✔ Interactive web interface
 ✔ Text preprocessing (cleaning, tokenization, lemmatization)
@@ -38,7 +38,7 @@ To allow users to input messages and get real-time predictions
 ✔ Fast and accurate predictions
 ✔ Flask backend integration
 
-##5️⃣ Technologies Used
+## 5️⃣ Technologies Used
 Technology	Purpose
 Python	Programming Language
 Flask	Web Framework
@@ -48,7 +48,7 @@ Pandas	Data Handling
 NumPy	Numerical Computation
 HTML	Frontend Structure
 CSS	Styling
-##6️⃣ Dataset Description
+## 6️⃣ Dataset Description
 
 The dataset used in this project is:
 
@@ -60,7 +60,7 @@ label → spam / ham
 
 message → actual SMS text
 
-##7️⃣ System Architecture
+## 7️⃣ System Architecture
 
 User Input → Message entered in web app
 
@@ -70,7 +70,7 @@ Model Prediction → LSTM model predicts spam probability
 
 Output Display → Result shown as Spam or Not Spam
 
-##8️⃣ Project Folder Structure
+## 8️⃣ Project Folder Structure
 Spam-Classifier-Project/
 │
 ├── app.py                # Main Flask application
@@ -87,7 +87,7 @@ Spam-Classifier-Project/
 │
 └── .venv/                # Virtual environment
 
-##9️⃣ How the System Works
+## 9️⃣ How the System Works
 Step 1: Data Preprocessing
 
 Convert text to lowercase
@@ -112,7 +112,7 @@ If probability > 0.5 → Spam
 
 Else → Not Spam
 
-#🔟 How to Run the Project
+# 🔟 How to Run the Project
 Step 1: Create Virtual Environment
 python -m venv .venv
 .\.venv\Scripts\activate
@@ -132,11 +132,11 @@ python app.py
 Step 6: Open in Browser
 http://127.0.0.1:5000
 
-##1️⃣1️⃣ Sample Predictions
+## 1️⃣1️⃣ Sample Predictions
 Input Message	Output
 "Win a free iPhone now!"	Spam 🚫
 "Can we meet tomorrow?"	Not Spam ✅
-##1️⃣2️⃣ Advantages
+## 1️⃣2️⃣ Advantages
 
 Helps filter unwanted spam messages
 
@@ -146,7 +146,7 @@ Can be integrated with email systems
 
 Scalable and extendable
 
-##1️⃣3️⃣ Limitations
+## 1️⃣3️⃣ Limitations
 
 Works best for English text
 
@@ -154,7 +154,7 @@ Accuracy depends on training data
 
 May misclassify sarcastic messages
 
-##1️⃣4️⃣ Future Enhancements
+## 1️⃣4️⃣ Future Enhancements
 
 Add confidence percentage in prediction
 
@@ -164,7 +164,7 @@ Support multiple languages
 
 Improve UI with charts and analytics
 
-##1️⃣5️⃣ Author
+## 1️⃣5️⃣ Author
 
 Venna Sharmilambika
 B.Tech CSE (AI & Data Science)
