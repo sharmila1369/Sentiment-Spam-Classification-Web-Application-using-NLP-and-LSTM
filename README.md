@@ -167,5 +167,7 @@ Improve UI with charts and analytics
 ## 1️⃣5️⃣ Author
 
 Venna Sharmilambika
+
 B.Tech CSE (AI & Data Science)
-Email: sharmilambikavenna gmail.com
+Email: [sharmilambikavenna@gmail.com](mailto:sharmilambikavenna@gmail.com)
+
